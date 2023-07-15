@@ -1,4 +1,4 @@
-import 'package:architecture_sample/breeds_details/models/breeds_image.dart';
+import 'package:architecture_sample/breeds_list/models/breeds_image.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'breed_images_response.g.dart';

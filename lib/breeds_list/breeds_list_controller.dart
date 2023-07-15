@@ -22,7 +22,7 @@ class BreedsListController {
     _repository.loadBreeds().then((value) {
       breedsListenable.value = value;
       loadingStatus.value = LoadingStatus.completed;
-    }).onError((error, stackTrace) {
+    }).onError((error,stackTrace) {
       loadingStatus.value = LoadingStatus.error;
     });
   }
@@ -37,4 +37,6 @@ class BreedsListController {
       await launchUrl(uri);
     }
   }
+
+
 }

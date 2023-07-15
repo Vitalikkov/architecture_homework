@@ -2,6 +2,7 @@ import 'package:architecture_sample/breeds_list/widgets/breed_card.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import 'breeds_details_page.dart';
 import '../repositories/breeds_search_repository.dart';
 import 'breeds_list_controller.dart';
 import 'models/breed.dart';

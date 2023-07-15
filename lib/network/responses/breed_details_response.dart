@@ -1,4 +1,4 @@
-import 'package:architecture_sample/breeds_details/models/breeds_details.dart';
+import 'package:architecture_sample/breeds_list/models/breeds_details.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'breed_details_response.g.dart';
@@ -64,7 +64,7 @@ class BreedDetailsResponse {
 }
 
 
-extension ModelDetailsMapper on BreedDetailsResponse {
+extension ModelMapper on BreedDetailsResponse {
   BreedDetails get entity => BreedDetails(
     id: id,
     name: name,
